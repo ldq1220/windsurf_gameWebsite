@@ -1,0 +1,4 @@
+{
+  "/games/gomoku/page": "app/games/gomoku/page.js",
+  "/page": "app/page.js"
+}

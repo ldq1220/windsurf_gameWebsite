@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@chakra-ui+react-utils@2.0.12_react@19.0.0-rc-02c0e824-20241028";
+exports.ids = ["vendor-chunks/@chakra-ui+react-utils@2.0.12_react@19.0.0-rc-02c0e824-20241028"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/.pnpm/@chakra-ui+react-utils@2.0.12_react@19.0.0-rc-02c0e824-20241028/node_modules/@chakra-ui/react-utils/dist/chunk-ITIKTQWJ.mjs":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@chakra-ui+react-utils@2.0.12_react@19.0.0-rc-02c0e824-20241028/node_modules/@chakra-ui/react-utils/dist/chunk-ITIKTQWJ.mjs ***!
+  \********************************************************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createContext: () => (/* binding */ createContext)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/.pnpm/next@15.0.2_react-dom@19.0.0-rc-02c0e824-20241028_react@19.0.0-rc-02c0e824-20241028__react@19.0.0-rc-02c0e824-20241028/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n// src/context.ts\n\nfunction createContext(options = {}) {\n  const {\n    strict = true,\n    errorMessage = \"useContext: `context` is undefined. Seems you forgot to wrap component within the Provider\",\n    name\n  } = options;\n  const Context = (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(void 0);\n  Context.displayName = name;\n  function useContext() {\n    var _a;\n    const context = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(Context);\n    if (!context && strict) {\n      const error = new Error(errorMessage);\n      error.name = \"ContextError\";\n      (_a = Error.captureStackTrace) == null ? void 0 : _a.call(Error, error, useContext);\n      throw error;\n    }\n    return context;\n  }\n  return [\n    Context.Provider,\n    useContext,\n    Context\n  ];\n}\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvLnBucG0vQGNoYWtyYS11aStyZWFjdC11dGlsc0AyLjAuMTJfcmVhY3RAMTkuMC4wLXJjLTAyYzBlODI0LTIwMjQxMDI4L25vZGVfbW9kdWxlcy9AY2hha3JhLXVpL3JlYWN0LXV0aWxzL2Rpc3QvY2h1bmstSVRJS1RRV0oubWpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQUE7QUFJZTtBQUNmLG1DQUFtQztBQUNuQztBQUNBO0FBQ0E7QUFDQTtBQUNBLElBQUk7QUFDSixrQkFBa0Isb0RBQWtCO0FBQ3BDO0FBQ0E7QUFDQTtBQUNBLG9CQUFvQixpREFBZTtBQUNuQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUlFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vbm9kZV9tb2R1bGVzLy5wbnBtL0BjaGFrcmEtdWkrcmVhY3QtdXRpbHNAMi4wLjEyX3JlYWN0QDE5LjAuMC1yYy0wMmMwZTgyNC0yMDI0MTAyOC9ub2RlX21vZHVsZXMvQGNoYWtyYS11aS9yZWFjdC11dGlscy9kaXN0L2NodW5rLUlUSUtUUVdKLm1qcz8wYWRmIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIHNyYy9jb250ZXh0LnRzXG5pbXBvcnQge1xuICBjcmVhdGVDb250ZXh0IGFzIGNyZWF0ZVJlYWN0Q29udGV4dCxcbiAgdXNlQ29udGV4dCBhcyB1c2VSZWFjdENvbnRleHRcbn0gZnJvbSBcInJlYWN0XCI7XG5mdW5jdGlvbiBjcmVhdGVDb250ZXh0KG9wdGlvbnMgPSB7fSkge1xuICBjb25zdCB7XG4gICAgc3RyaWN0ID0gdHJ1ZSxcbiAgICBlcnJvck1lc3NhZ2UgPSBcInVzZUNvbnRleHQ6IGBjb250ZXh0YCBpcyB1bmRlZmluZWQuIFNlZW1zIHlvdSBmb3Jnb3QgdG8gd3JhcCBjb21wb25lbnQgd2l0aGluIHRoZSBQcm92aWRlclwiLFxuICAgIG5hbWVcbiAgfSA9IG9wdGlvbnM7XG4gIGNvbnN0IENvbnRleHQgPSBjcmVhdGVSZWFjdENvbnRleHQodm9pZCAwKTtcbiAgQ29udGV4dC5kaXNwbGF5TmFtZSA9IG5hbWU7XG4gIGZ1bmN0aW9uIHVzZUNvbnRleHQoKSB7XG4gICAgdmFyIF9hO1xuICAgIGNvbnN0IGNvbnRleHQgPSB1c2VSZWFjdENvbnRleHQoQ29udGV4dCk7XG4gICAgaWYgKCFjb250ZXh0ICYmIHN0cmljdCkge1xuICAgICAgY29uc3QgZXJyb3IgPSBuZXcgRXJyb3IoZXJyb3JNZXNzYWdlKTtcbiAgICAgIGVycm9yLm5hbWUgPSBcIkNvbnRleHRFcnJvclwiO1xuICAgICAgKF9hID0gRXJyb3IuY2FwdHVyZVN0YWNrVHJhY2UpID09IG51bGwgPyB2b2lkIDAgOiBfYS5jYWxsKEVycm9yLCBlcnJvciwgdXNlQ29udGV4dCk7XG4gICAgICB0aHJvdyBlcnJvcjtcbiAgICB9XG4gICAgcmV0dXJuIGNvbnRleHQ7XG4gIH1cbiAgcmV0dXJuIFtcbiAgICBDb250ZXh0LlByb3ZpZGVyLFxuICAgIHVzZUNvbnRleHQsXG4gICAgQ29udGV4dFxuICBdO1xufVxuXG5leHBvcnQge1xuICBjcmVhdGVDb250ZXh0XG59O1xuIl0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6WzBdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/.pnpm/@chakra-ui+react-utils@2.0.12_react@19.0.0-rc-02c0e824-20241028/node_modules/@chakra-ui/react-utils/dist/chunk-ITIKTQWJ.mjs\n");
+
+/***/ })
+
+};
+;

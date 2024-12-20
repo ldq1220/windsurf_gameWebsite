@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@chakra-ui+react-use-update-effect@2.1.0_react@19.0.0-rc-02c0e824-20241028";
+exports.ids = ["vendor-chunks/@chakra-ui+react-use-update-effect@2.1.0_react@19.0.0-rc-02c0e824-20241028"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/.pnpm/@chakra-ui+react-use-update-effect@2.1.0_react@19.0.0-rc-02c0e824-20241028/node_modules/@chakra-ui/react-use-update-effect/dist/index.mjs":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@chakra-ui+react-use-update-effect@2.1.0_react@19.0.0-rc-02c0e824-20241028/node_modules/@chakra-ui/react-use-update-effect/dist/index.mjs ***!
+  \**********************************************************************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   useUpdateEffect: () => (/* binding */ useUpdateEffect)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/.pnpm/next@15.0.2_react-dom@19.0.0-rc-02c0e824-20241028_react@19.0.0-rc-02c0e824-20241028__react@19.0.0-rc-02c0e824-20241028/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n/* __next_internal_client_entry_do_not_use__ useUpdateEffect auto */ // src/index.ts\n\nfunction useUpdateEffect(callback, deps) {\n    const renderCycleRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(false);\n    const effectCycleRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(false);\n    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{\n        const mounted = renderCycleRef.current;\n        const run = mounted && effectCycleRef.current;\n        if (run) {\n            return callback();\n        }\n        effectCycleRef.current = true;\n    }, deps);\n    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{\n        renderCycleRef.current = true;\n        return ()=>{\n            renderCycleRef.current = false;\n        };\n    }, []);\n}\n //# sourceMappingURL=index.mjs.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvLnBucG0vQGNoYWtyYS11aStyZWFjdC11c2UtdXBkYXRlLWVmZmVjdEAyLjEuMF9yZWFjdEAxOS4wLjAtcmMtMDJjMGU4MjQtMjAyNDEwMjgvbm9kZV9tb2R1bGVzL0BjaGFrcmEtdWkvcmVhY3QtdXNlLXVwZGF0ZS1lZmZlY3QvZGlzdC9pbmRleC5tanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQWtDO0FBRTNCLFNBQVMsZ0JBQ2QsVUFDQSxNQUNBO0lBQ0EsTUFBTSxpQkFBaUIsNkNBQU0sQ0FBQyxLQUFLO0lBQ25DLE1BQU0saUJBQWlCLDZDQUFNLENBQUMsS0FBSztJQUVuQyxnREFBUyxDQUFDO1FBQ1IsTUFBTSxVQUFVLGVBQWU7UUFDL0IsTUFBTSxNQUFNLFdBQVcsZUFBZTtRQUN0QyxJQUFJLEtBQUs7WUFDUCxPQUFPLFNBQVM7UUFDbEI7UUFDQSxlQUFlLFVBQVU7SUFFM0IsR0FBRyxJQUFJO0lBRVAsZ0RBQVMsQ0FBQztRQUNSLGVBQWUsVUFBVTtRQUN6QixPQUFPO1lBQ0wsZUFBZSxVQUFVO1FBQzNCO0lBQ0YsR0FBRyxDQUFDLENBQUM7QUFDUCIsInNvdXJjZXMiOlsid2VicGFjazovLy8uLi9zcmMvaW5kZXgudHM/NTJkNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVJlZiB9IGZyb20gXCJyZWFjdFwiXG5cbmV4cG9ydCBmdW5jdGlvbiB1c2VVcGRhdGVFZmZlY3QoXG4gIGNhbGxiYWNrOiBSZWFjdC5FZmZlY3RDYWxsYmFjayxcbiAgZGVwczogUmVhY3QuRGVwZW5kZW5jeUxpc3QsXG4pIHtcbiAgY29uc3QgcmVuZGVyQ3ljbGVSZWYgPSB1c2VSZWYoZmFsc2UpXG4gIGNvbnN0IGVmZmVjdEN5Y2xlUmVmID0gdXNlUmVmKGZhbHNlKVxuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3QgbW91bnRlZCA9IHJlbmRlckN5Y2xlUmVmLmN1cnJlbnRcbiAgICBjb25zdCBydW4gPSBtb3VudGVkICYmIGVmZmVjdEN5Y2xlUmVmLmN1cnJlbnRcbiAgICBpZiAocnVuKSB7XG4gICAgICByZXR1cm4gY2FsbGJhY2soKVxuICAgIH1cbiAgICBlZmZlY3RDeWNsZVJlZi5jdXJyZW50ID0gdHJ1ZVxuICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHNcbiAgfSwgZGVwcylcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIHJlbmRlckN5Y2xlUmVmLmN1cnJlbnQgPSB0cnVlXG4gICAgcmV0dXJuICgpID0+IHtcbiAgICAgIHJlbmRlckN5Y2xlUmVmLmN1cnJlbnQgPSBmYWxzZVxuICAgIH1cbiAgfSwgW10pXG59XG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/.pnpm/@chakra-ui+react-use-update-effect@2.1.0_react@19.0.0-rc-02c0e824-20241028/node_modules/@chakra-ui/react-use-update-effect/dist/index.mjs\n");
+
+/***/ })
+
+};
+;
